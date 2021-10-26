@@ -72,6 +72,7 @@ static Key keys[] = {
 	{ MODKEY,                       XK_b,      togglebar,      {0} },
 	{ MODKEY|ShiftMask,             XK_b,      spawn,          SHCMD("polybar-msg cmd restart")},
 	{ MODKEY|ShiftMask,             XK_l,      spawn,          SHCMD("xbacklight -set 50")},
+	{ MODKEY,                       XK_s,      spawn,          SHCMD("gnome-screenshot -i")},
 	{ MODKEY,                       XK_Tab,    focusstack,     {.i = +1 } },
 	{ MODKEY,                       XK_j,      focusstack,     {.i = +1 } },
 	{ MODKEY,                       XK_k,      focusstack,     {.i = -1 } },
